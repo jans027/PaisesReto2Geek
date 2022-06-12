@@ -1,0 +1,108 @@
+
+.contenedorFormulario{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 3%;
+    width: 90%;
+    height:500px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.575);
+}
+.seccion1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+.seccion1 a{
+    font-size: 19px;
+    position: absolute;
+    margin: 10px 60px;
+    color: #3FA2F9;
+    text-decoration: none;
+}
+.seccion1 div{
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+    margin-top: 38px;
+    border-radius: 13px;
+}
+.img-principal-Form{
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center -250px;
+    border-radius: 13px;
+}
+.ciudadForm{
+    margin: 0 auto;
+    width: 80%;
+    padding: 15px 0;
+    margin-top: -250px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+
+}
+.seccion1 p{
+    margin: 0 auto;
+    width: 80%;
+}
+.img-secundaria-form{
+    display: flex;
+    width: 20%;
+    margin: 0 auto;
+    box-shadow: 1px 2px 8px 0px #888888;
+    transform: rotate(-10deg);
+}
+
+/* ..................formulario................... */
+
+.seccion2{
+    width: 50%;
+    height: 100%;
+}
+#ciudad, #continente{
+    color: rgb(161, 161, 161);
+    border: 1px solid rgb(161, 161, 161);
+}
+.seccion2 form{
+    width: 90%;
+    margin: 45px 0;
+    text-align: center;
+    /* display: flex; */
+    flex-wrap: wrap;
+    
+}
+.seccion2 form input{
+    width: 100%;
+    margin: 10px 0;
+    padding: 7px;
+    border-radius: 10px;
+    border: 1px solid #5a5a5a;
+}
+.seccion2 form label{
+    float: left;
+}
+.seccion2 form button {
+    width: 25%;
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.seccion2 form button input{
+    color: #ffffff;
+    width: 100%;
+    padding:10px;
+    background-color: #3FA2F9;
+    
+}
+.seccion2 form button input:active {
+    border: 2px solid #3FA2F9;
+    background-color: #3fa2f9e8;
+}
+.seccion2 form button input:hover{
+    transform : scale(1.05);
+}
