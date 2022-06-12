@@ -48,7 +48,7 @@ function mostrarDestinos(e) {
 
 
     switch (button) {
-        case 'http://127.0.0.1:5500/images/AFRICA.png': {
+        case 'https://jans027.github.io/images/AFRICA.png': {
             const tarjetasDestinos = paises.filter(pais => pais.id == 1); //obtengo el objeto por el  id
 
             const template = document.querySelector('#template2').content;
@@ -71,7 +71,7 @@ function mostrarDestinos(e) {
             break;
         }
 
-        case 'http://127.0.0.1:5500/images/ASIA.png': {
+        case 'https://jans027.github.io/images/ASIA.png': {
 
             const tarjetasDestinos = paises.filter(pais => pais.id == 2); //obtengo el objeto por el  id
 
@@ -95,7 +95,7 @@ function mostrarDestinos(e) {
 
             break;
         }
-        case 'http://127.0.0.1:5500/images/EUROPA.png': {
+        case 'https://jans027.github.io/images/EUROPA.png': {
             const tarjetasDestinos = paises.filter(pais => pais.id == 3); //obtengo el objeto por el  id
 
             const template = document.querySelector('#template2').content;
@@ -118,7 +118,7 @@ function mostrarDestinos(e) {
         }
             break;
 
-        case 'http://127.0.0.1:5500/images/OCEANIA.png': {
+        case 'https://jans027.github.io/images/OCEANIA.png': {
             const tarjetasDestinos = paises.filter(pais => pais.id == 4); //obtengo el objeto por el  id
 
             const template = document.querySelector('#template2').content;
@@ -140,7 +140,7 @@ function mostrarDestinos(e) {
             tarjeta.appendChild(fragment);
         }
             break;
-        case 'http://127.0.0.1:5500/images/AMERICA.png': {
+        case 'https://jans027.github.io/images/AMERICA.png': {
             const tarjetasDestinos = paises.filter(pais => pais.id == 5); //obtengo el objeto por el  id
 
             const template = document.querySelector('#template2').content;
