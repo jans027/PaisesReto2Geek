@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/index.css">
+    <!-- ....swet alert -->
+    <link rel="stylesheet" href="sweetalert2.min.css">
+    <link rel="shortcut icon" href="images/logo.png">
+    <title>Geo-Paises Geek</title>
+</head>
+
+<body>
+    <!-- ..................Nav Bar.................... -->
+    <header>
+        <div class="logo-nombre">
+            <img src="images/logo.png" alt="">
+            <h1>Geo-Paises Geek</h1>
+        </div>
+        <div class="redesSociales">
+            <button><img src="images/facebook.png" alt=""></button>
+            <button><img src="images/twitter.png" alt=""></button>
+            <button><img src="images/instagram.png" alt=""></button>
+            <button><img src="images/pinterest.png" alt=""></button>
+        </div>
+    </header>
+    <!-- .................Cuerpo Principal .............-->
+    <main class="contenedorPrincipal">
+        <section class="principal">
+            <section>
+                <div class="botonesPaises"></div>
+            </section>
+
+            <template id="template1">
+                <button class="button">
+                    <img src=".png" alt="">
+                </button> </div>
+            </template>
+            <!-- ................................................. -->
+
+            <section class="seccionTarjetas seccionTarjetas2">
+
+
+                <template id="template2">
+                    <div class="tarjeta">
+                        <img src=".jpg" alt="">
+                        <h2>Lorem ipsum.</h2>
+                        <h4 class="vermas" type="button">Ver mas</h4>
+                    </div>
+                </template>
+            </section>
+        </section>
+        <!-- ................................................................. -->
+
+
+
+
+        <section class="secundaria">
+            <section class="contenedorFormulario">
+                <div class="seccion1">
+                    <a href="index.html">Volver</a>
+                    <div><img class="img-principal-Form" src="" alt=""></div>
+                    <h2 class="ciudadForm"></h2>
+                    <p></p>
+                    <img class="img-secundaria-form" src="" alt="">
+                </div>
+                <div class="seccion2">
+                    <form id="form" action="">
+                        <h2>Agenda Tu Cita</h2>
+                        <input id="ciudad" type="text" readonly>
+                        <input id="continente" type="text" readonly>
+                        <label for="">Fecha de partida</label>
+                        <input id="partida" type="date"required>
+                        <label for="">Fecha de retorno</label>
+                        <input id="llegada" type="date"required>
+                        <input id="comentarios" type="text" placeholder="Comentarios" required>
+                        <input type="submit" value="register">
+                    </form>
+                </div>
+            </section>
+        </section>
+
+
+    </main>
+
+
+    <script src="script.js/botonesPaises.js"></script>
+    <script src="script.js/main.js" type="module"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>
