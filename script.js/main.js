@@ -48,7 +48,7 @@ function mostrarDestinos(e) {
 
 
     switch (button) {
-        case 'https://jans027.github.io/PaisesReto2Geek/images/AFRICA.png': {
+        case 'https://jans027.github.io/PaisesReto2Geek/images/AFRICA.png': 
             const tarjetasDestinos = paises.filter(pais => pais.id == 1); //obtengo el objeto por el  id
 
             const template = document.querySelector('#template2').content;
@@ -68,10 +68,8 @@ function mostrarDestinos(e) {
 
             });
             tarjeta.appendChild(fragment);
-            break;
-        }
-        
-        case 'https://jans027.github.io/PaisesReto2Geek/images/ASIA.png': {
+        break;
+        case 'https://jans027.github.io/PaisesReto2Geek/images/ASIA.png': 
 
             const tarjetasDestinos = paises.filter(pais => pais.id == 2); //obtengo el objeto por el  id
 
@@ -92,10 +90,7 @@ function mostrarDestinos(e) {
 
             });
             tarjeta.appendChild(fragment);
-            break;
-        }
-
-            
+        break;
         case 'https://jans027.github.io/PaisesReto2Geek/images/EUROPA.png': {
             const tarjetasDestinos = paises.filter(pais => pais.id == 3); //obtengo el objeto por el  id
 
@@ -116,10 +111,8 @@ function mostrarDestinos(e) {
 
             });
             tarjeta.appendChild(fragment);
-            break;
-        }
-            
-        case'https://jans027.github.io/PaisesReto2Geek/images/OCEANIA.png': {
+        break; 
+        case'https://jans027.github.io/PaisesReto2Geek/images/OCEANIA.png': 
             const tarjetasDestinos = paises.filter(pais => pais.id == 4); //obtengo el objeto por el  id
 
             const template = document.querySelector('#template2').content;
@@ -139,10 +132,8 @@ function mostrarDestinos(e) {
 
             });
             tarjeta.appendChild(fragment);
-            break;
-        }
-            
-        case 'https://jans027.github.io/PaisesReto2Geek/images/AMERICA.png': {
+        break;
+        case 'https://jans027.github.io/PaisesReto2Geek/images/AMERICA.png': 
             const tarjetasDestinos = paises.filter(pais => pais.id == 5); //obtengo el objeto por el  id
 
             const template = document.querySelector('#template2').content;
@@ -162,9 +153,7 @@ function mostrarDestinos(e) {
 
             });
             tarjeta.appendChild(fragment);
-            break;
-        }
-            
+        break; 
         default:
             alert('el boton no existe ' + button)
     }
