@@ -13,10 +13,10 @@ let botones = paises.find(({ id }) => id.includes("bo"));
 // .................................................................................
 
 
-const tarjetasDestinos = paises.filter(pais => pais.id == "boton"); // filter
+const tarjetas = paises.filter(pais => pais.id == "boton"); // filter
 
 // const id = tarjetasDestinos[0].id //desestructurado
-const cont = tarjetasDestinos.map(item => item.imagen); //desestructurado
+const cont = tarjetas.map(item => item.imagen); //desestructurado
 // construimos las tarjetas de botones
 const botonesPaises = document.querySelector('.botonesPaises')
 const template = document.querySelector('#template1').content;
