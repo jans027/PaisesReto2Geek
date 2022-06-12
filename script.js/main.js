@@ -48,7 +48,7 @@ function mostrarDestinos(e) {
 
 
     switch (button) {
-        case 'https://jans027.github.io/images/AFRICA.png': {
+        case https://jans027.github.io/PaisesReto2Geek/images/AFRICA.png: {
             const tarjetasDestinos = paises.filter(pais => pais.id == 1); //obtengo el objeto por el  id
 
             const template = document.querySelector('#template2').content;
@@ -68,10 +68,9 @@ function mostrarDestinos(e) {
 
             });
             tarjeta.appendChild(fragment);
-            break;
         }
-
-        case 'https://jans027.github.io/images/ASIA.png': {
+        break;
+        case https://jans027.github.io/PaisesReto2Geek/images/ASIA.png: {
 
             const tarjetasDestinos = paises.filter(pais => pais.id == 2); //obtengo el objeto por el  id
 
@@ -92,10 +91,10 @@ function mostrarDestinos(e) {
 
             });
             tarjeta.appendChild(fragment);
+        }
 
             break;
-        }
-        case 'https://jans027.github.io/images/EUROPA.png': {
+        case https://jans027.github.io/PaisesReto2Geek/images/EUROPA.png: {
             const tarjetasDestinos = paises.filter(pais => pais.id == 3); //obtengo el objeto por el  id
 
             const template = document.querySelector('#template2').content;
@@ -117,8 +116,7 @@ function mostrarDestinos(e) {
             tarjeta.appendChild(fragment);
         }
             break;
-
-        case 'https://jans027.github.io/images/OCEANIA.png': {
+        case https://jans027.github.io/PaisesReto2Geek/images/OCEANIA.png: {
             const tarjetasDestinos = paises.filter(pais => pais.id == 4); //obtengo el objeto por el  id
 
             const template = document.querySelector('#template2').content;
@@ -140,7 +138,7 @@ function mostrarDestinos(e) {
             tarjeta.appendChild(fragment);
         }
             break;
-        case 'https://jans027.github.io/images/AMERICA.png': {
+        case https://jans027.github.io/PaisesReto2Geek/images/AMERICA.png: {
             const tarjetasDestinos = paises.filter(pais => pais.id == 5); //obtengo el objeto por el  id
 
             const template = document.querySelector('#template2').content;
@@ -167,45 +165,3 @@ function mostrarDestinos(e) {
     }
 }
 //........................................................
-
-
-
-//.....................................................
-
-
-
-
-
-
-
-// document.getElementById('vermas').onclick = formularioCiudades;
-
-
-// function formularioCiudades(comp,){
-//     let datos = (comp);
-//     console.log( datos)
-
-// }
-
-
-// const clic = document.querySelectorAll('#vermas');
-
-// const formularioCiudades = function(evento){
-//     console.log("funciona");
-// }
-// clic.forEach(boton =>{
-//     boton.addEventListener("click", formularioCiudades)
-// })
-
-
-
-
-
-// clic.forEach(btn =>{
-//     btn.addEventListener('click', formularioCiudades ) 
-// })
-// function formularioCiudades(comp,){
-//     let datos = (comp.id);
-//     console.log( datos)
-
-// }
