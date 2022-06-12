@@ -316,16 +316,27 @@ let form = document.getElementById('form');
 
 form.addEventListener('submit', function (event) {
     event.preventDefault();
-    let datosObjeto = convertirDatosAObjeto(form)
-    sessionStorage.setItem("datosFormulario", JSON.stringify(datosObjeto));
+    let datosObjeto = convertirDatosAObjeto(form)//convertir formData a objeto
     console.log(datosObjeto)
+    if (comentarios.value === "" ||  partida.value ==="" ||  llegada.value ==="") {//validacion datos vacios
+        Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'Todos los campos son obligatorios!',
+            footer: ''
+        })
+    } else {
+        sessionStorage.setItem("datosFormulario", JSON.stringify(datosObjeto));
     Swal.fire(
         '',
         'Cita Guardada Correctamente!',
         'success'
     );
     form.reset();
+    }
+    
 })
+
 
 
 
