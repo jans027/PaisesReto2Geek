@@ -2,267 +2,267 @@ export  const paises = [
     {
         id: 'boton',
         continente: "AFRICA",
-        imagen: "../images/AFRICA.png",
+        imagen: "./images/AFRICA.png",
     },
     {
         id:'boton',
         continente: "ASIA",
-        imagen: "../images/ASIA.png",
+        imagen: "./images/ASIA.png",
     },
     {
         id:"boton",
         continente: "EUROPA",
-        imagen: "../images/EUROPA.png",
+        imagen: "./images/EUROPA.png",
     },
     {
         id:"boton",
         continente: "OCEANIA",
-        imagen: "../images/OCEANIA.png",
+        imagen: "./images/OCEANIA.png",
     },
     {
         id:"boton",
         continente: "AMERICA",
-        imagen: "../images/AMERICA.png",
+        imagen: "./images/AMERICA.png",
     },
 
     {
         id:1,
         continente: "AFRICA",
         ciudad: "Ciudad del Cabo - Sudáfrica",
-        imagen: "../images/africa1.jpg",
-        miniatura: "../images/AFRICA.png",
+        imagen: "./images/africa1.jpg",
+        miniatura: "./images/AFRICA.png",
         texto: "Lorem ipsum dolor sit amet consectetur adipiscing elit nullam malesuada, netus ultricies est quam interdum posuere aliquam pulvinar, nec rutrum nibh consequat etiam lacinia mattis lobortis."
     },
     {
         id:1,
         continente: "AFRICA",
         ciudad: "El Cairo - Egipto",
-        imagen: "../images/africa2.jpg",
-        miniatura: "../images/AFRICA.png",
+        imagen: "./images/africa2.jpg",
+        miniatura: "./images/AFRICA.png",
         texto: "Lorem ipsum dolor sit amet consectetur adipiscing elit nullam malesuada, netus ultricies est quam interdum posuere aliquam pulvinar, nec rutrum nibh consequat etiam lacinia mattis lobortis."
     },
     {
         id:1,
         continente: "AFRICA",
         ciudad: "Túnez - Túnez",
-        imagen: "../images/africa3.jpg",
-        miniatura: "../images/AFRICA.png",
+        imagen: "./images/africa3.jpg",
+        miniatura: "./images/AFRICA.png",
         texto: "Lorem ipsum dolor sit amet consectetur adipiscing elit nullam malesuada, netus ultricies est quam interdum posuere aliquam pulvinar, nec rutrum nibh consequat etiam lacinia mattis lobortis."
     },
     {
         id:1,
         continente: "AFRICA",
         ciudad: "Nairobi - Kenia",
-        imagen: "../images/africa4.jpg",
-        miniatura: "../images/AFRICA.png",
+        imagen: "./images/africa4.jpg",
+        miniatura: "./images/AFRICA.png",
         texto: "Lorem ipsum dolor sit amet consectetur adipiscing elit nullam malesuada, netus ultricies est quam interdum posuere aliquam pulvinar, nec rutrum nibh consequat etiam lacinia mattis lobortis."
     },
     {
         id:1,
         continente: "AFRICA",
         ciudad: "El Cairo - Egipto",
-        imagen: "../images/africa5.jpg",
-        miniatura: "../images/AFRICA.png",
+        imagen: "./images/africa5.jpg",
+        miniatura: "./images/AFRICA.png",
         texto: "Lorem ipsum dolor sit amet consectetur adipiscing elit nullam malesuada, netus ultricies est quam interdum posuere aliquam pulvinar, nec rutrum nibh consequat etiam lacinia mattis lobortis."
     },
     {
         id:1,
         continente: "AFRICA",
         ciudad: "Luanda - Angola",
-        imagen: "../images/AFRICA.png",
-        miniatura: "../images/AFRICA.png",
+        imagen: "./images/AFRICA.png",
+        miniatura: "./images/AFRICA.png",
         texto: "Lorem ipsum dolor sit amet consectetur adipiscing elit nullam malesuada, netus ultricies est quam interdum posuere aliquam pulvinar, nec rutrum nibh consequat etiam lacinia mattis lobortis."
     },
     {
         id:2,
         continente: "ASIA",
         ciudad: "Bali - Indonesia",
-        imagen: "../images/asia1filipinas.jpg",
-        miniatura: "../images/ASIA.png",
+        imagen: "./images/asia1filipinas.jpg",
+        miniatura: "./images/ASIA.png",
         texto: "Lorem ipsum dolor sit amet consectetur adipiscing elit nullam malesuada, netus ultricies est quam interdum posuere aliquam pulvinar, nec rutrum nibh consequat etiam lacinia mattis lobortis."
     },
     {
         id:2,
         continente: "ASIA",
         ciudad: "Hoi An - Vietnam",
-        imagen: "../images/asia2rusia.jpg",
-        miniatura: "../images/ASIA.png",
+        imagen: "./images/asia2rusia.jpg",
+        miniatura: "./images/ASIA.png",
         texto: "Lorem ipsum dolor sit amet consectetur adipiscing elit nullam malesuada, netus ultricies est quam interdum posuere aliquam pulvinar, nec rutrum nibh consequat etiam lacinia mattis lobortis."
     },
     {
         id:2,
         continente: "ASIA",
         ciudad: "Phuket - Tailandia",
-        imagen: "../images/asia3india.jpg",
-        miniatura: "../images/ASIA.png",
+        imagen: "./images/asia3india.jpg",
+        miniatura: "./images/ASIA.png",
         texto: "Lorem ipsum dolor sit amet consectetur adipiscing elit nullam malesuada, netus ultricies est quam interdum posuere aliquam pulvinar, nec rutrum nibh consequat etiam lacinia mattis lobortis."
     },
     {
         id:2,
         continente: "ASIA",
         ciudad: "Katmandú - Nepal",
-        imagen: "../images/asia4singapur.jpg",
-        miniatura: "../images/ASIA.png",
+        imagen: "./images/asia4singapur.jpg",
+        miniatura: "./images/ASIA.png",
         texto: "Lorem ipsum dolor sit amet consectetur adipiscing elit nullam malesuada, netus ultricies est quam interdum posuere aliquam pulvinar, nec rutrum nibh consequat etiam lacinia mattis lobortis."
     },
     {
         id:2,
         continente: "ASIA",
         ciudad: "Bangkok - Tailandia",
-        imagen: "../images/asia5china.jpg",
-        miniatura: "../images/ASIA.png",
+        imagen: "./images/asia5china.jpg",
+        miniatura: "./images/ASIA.png",
         texto: "Lorem ipsum dolor sit amet consectetur adipiscing elit nullam malesuada, netus ultricies est quam interdum posuere aliquam pulvinar, nec rutrum nibh consequat etiam lacinia mattis lobortis."
     },
     {
         id:2,
         continente: "ASIA",
         ciudad: "Tokio - Japón",
-        imagen: "../images/ASIA.png",
-        miniatura: "../images/ASIA.png",
+        imagen: "./images/ASIA.png",
+        miniatura: "./images/ASIA.png",
         texto: "Lorem ipsum dolor sit amet consectetur adipiscing elit nullam malesuada, netus ultricies est quam interdum posuere aliquam pulvinar, nec rutrum nibh consequat etiam lacinia mattis lobortis."
     },
     {
         id:3,
         continente: "EUROPA",
         ciudad: "Londres - Reino Unido",
-        imagen: "../images/europa1roma.jpg",
-        miniatura: "../images/EUROPA.png",
+        imagen: "./images/europa1roma.jpg",
+        miniatura: "./images/EUROPA.png",
         texto: "Lorem ipsum dolor sit amet consectetur adipiscing elit nullam malesuada, netus ultricies est quam interdum posuere aliquam pulvinar, nec rutrum nibh consequat etiam lacinia mattis lobortis."
     },
     {
         id:3,
         continente: "EUROPA",
         ciudad: "	Paris - Francia",
-        imagen: "../images/europa2suezia.jpg",
-        miniatura: "../images/EUROPA.png",
+        imagen: "./images/europa2suezia.jpg",
+        miniatura: "./images/EUROPA.png",
         texto: "Lorem ipsum dolor sit amet consectetur adipiscing elit nullam malesuada, netus ultricies est quam interdum posuere aliquam pulvinar, nec rutrum nibh consequat etiam lacinia mattis lobortis."
     },
     {
         id:3,
         continente: "EUROPA",
         ciudad: "Estambul - Turquía",
-        imagen: "../images/europa3madrid.jpg",
-        miniatura: "../images/EUROPA.png",
+        imagen: "./images/europa3madrid.jpg",
+        miniatura: "./images/EUROPA.png",
         texto: "Lorem ipsum dolor sit amet consectetur adipiscing elit nullam malesuada, netus ultricies est quam interdum posuere aliquam pulvinar, nec rutrum nibh consequat etiam lacinia mattis lobortis."
     },
     {
         id:3,
         continente: "EUROPA",
         ciudad: "Roma - Italia",
-        imagen: "../images/europa4londres.jpg",
-        miniatura: "../images/EUROPA.png",
+        imagen: "./images/europa4londres.jpg",
+        miniatura: "./images/EUROPA.png",
         texto: "Lorem ipsum dolor sit amet consectetur adipiscing elit nullam malesuada, netus ultricies est quam interdum posuere aliquam pulvinar, nec rutrum nibh consequat etiam lacinia mattis lobortis."
     },
     {
         id:3,
         continente: "EUROPA",
         ciudad: "Ámsterdam - Países Bajos",
-        imagen: "../images/europa5alemania.jpg",
-        miniatura: "../images/EUROPA.png",
+        imagen: "./images/europa5alemania.jpg",
+        miniatura: "./images/EUROPA.png",
         texto: "Lorem ipsum dolor sit amet consectetur adipiscing elit nullam malesuada, netus ultricies est quam interdum posuere aliquam pulvinar, nec rutrum nibh consequat etiam lacinia mattis lobortis."
     },
     {
         id:3,
         continente: "EUROPA",
         ciudad: "Viena - Austria",
-        imagen: "../images/EUROPA.png",
-        miniatura: "../images/EUROPA.png",
+        imagen: "./images/EUROPA.png",
+        miniatura: "./images/EUROPA.png",
         texto: "Lorem ipsum dolor sit amet consectetur adipiscing elit nullam malesuada, netus ultricies est quam interdum posuere aliquam pulvinar, nec rutrum nibh consequat etiam lacinia mattis lobortis."
     },
     {
         id:4,
         continente: "OCEANIA",
         ciudad: "Sidney - Australia",
-        imagen: "../images/oceaniaaustralia1.jpg",
-        miniatura: "../images/OCEANIA.png",
+        imagen: "./images/oceaniaaustralia1.jpg",
+        miniatura: "./images/OCEANIA.png",
         texto: "Lorem ipsum dolor sit amet consectetur adipiscing elit nullam malesuada, netus ultricies est quam interdum posuere aliquam pulvinar, nec rutrum nibh consequat etiam lacinia mattis lobortis."
     },
     {
         id:4,
         continente: "OCEANIA",
         ciudad: "Cairns - Australia",
-        imagen: "../images/oceaniaaustralia2.jpg",
-        miniatura: "../images/OCEANIA.png",
+        imagen: "./images/oceaniaaustralia2.jpg",
+        miniatura: "./images/OCEANIA.png",
         texto: "Lorem ipsum dolor sit amet consectetur adipiscing elit nullam malesuada, netus ultricies est quam interdum posuere aliquam pulvinar, nec rutrum nibh consequat etiam lacinia mattis lobortis."
     },
     {
         id:4,
         continente: "OCEANIA",
         ciudad: "Gold Coast - Australia",
-        imagen: "../images/oceaniaaustralia3.jpg",
-        miniatura: "../images/OCEANIA.png",
+        imagen: "./images/oceaniaaustralia3.jpg",
+        miniatura: "./images/OCEANIA.png",
         texto: "Lorem ipsum dolor sit amet consectetur adipiscing elit nullam malesuada, netus ultricies est quam interdum posuere aliquam pulvinar, nec rutrum nibh consequat etiam lacinia mattis lobortis."
     },
     {
         id:4,
         continente: "OCEANIA",
         ciudad: "Sunshine Coast - Australia",
-        imagen: "../images/oceanianuevazelanda1.jpg",
-        miniatura: "../images/OCEANIA.png",
+        imagen: "./images/oceanianuevazelanda1.jpg",
+        miniatura: "./images/OCEANIA.png",
         texto: "Lorem ipsum dolor sit amet consectetur adipiscing elit nullam malesuada, netus ultricies est quam interdum posuere aliquam pulvinar, nec rutrum nibh consequat etiam lacinia mattis lobortis."
     },
     {
         id:4,
         continente: "OCEANIA",
         ciudad: "Adelaida - Australia",
-        imagen: "../images/oceanianuevazelanda2.jpg",
-        miniatura: "../images/OCEANIA.png",
+        imagen: "./images/oceanianuevazelanda2.jpg",
+        miniatura: "./images/OCEANIA.png",
         texto: "Lorem ipsum dolor sit amet consectetur adipiscing elit nullam malesuada, netus ultricies est quam interdum posuere aliquam pulvinar, nec rutrum nibh consequat etiam lacinia mattis lobortis."
     },
     {
         id:4,
         continente: "OCEANIA",
         ciudad: "Launceston - Australia",
-        imagen: "../images/oceaniaaustralia1.jpg",
-        miniatura: "../images/OCEANIA.png",
+        imagen: "./images/oceaniaaustralia1.jpg",
+        miniatura: "./images/OCEANIA.png",
         texto: "Lorem ipsum dolor sit amet consectetur adipiscing elit nullam malesuada, netus ultricies est quam interdum posuere aliquam pulvinar, nec rutrum nibh consequat etiam lacinia mattis lobortis."
     },
     {
         id:5,
         continente: "AMERICA",
         ciudad: "Cusco - Peru",
-        imagen: "../images/america1peru.jpg",
-        miniatura: "../images/AMERICA.png",
+        imagen: "./images/america1peru.jpg",
+        miniatura: "./images/AMERICA.png",
         texto: "Lorem ipsum dolor sit amet consectetur adipiscing elit nullam malesuada, netus ultricies est quam interdum posuere aliquam pulvinar, nec rutrum nibh consequat etiam lacinia mattis lobortis."
     },
     {
         id:5,
         continente: "AMERICA",
         ciudad: "New York - Estados Unidos",
-        imagen: "../images/america2newyork.jpg",
-        miniatura: "../images/AMERICA.png",
+        imagen: "./images/america2newyork.jpg",
+        miniatura: "./images/AMERICA.png",
         texto: "Lorem ipsum dolor sit amet consectetur adipiscing elit nullam malesuada, netus ultricies est quam interdum posuere aliquam pulvinar, nec rutrum nibh consequat etiam lacinia mattis lobortis."
     },
     {
         id:5,
         continente: "AMERICA",
         ciudad: "Buenos Aires - Argentina",
-        imagen: "../images/america3argnetina.jpg",
-        miniatura: "../images/AMERICA.png",
+        imagen: "./images/america3argnetina.jpg",
+        miniatura: "./images/AMERICA.png",
         texto: "Lorem ipsum dolor sit amet consectetur adipiscing elit nullam malesuada, netus ultricies est quam interdum posuere aliquam pulvinar, nec rutrum nibh consequat etiam lacinia mattis lobortis."
     },
     {
         id:5,
         continente: "AMERICA",
         ciudad: "Bogota - Colombia",
-        imagen: "../images/america4colombi.jpg",
-        miniatura: "../images/AMERICA.png",
+        imagen: "./images/america4colombi.jpg",
+        miniatura: "./images/AMERICA.png",
         texto: "Lorem ipsum dolor sit amet consectetur adipiscing elit nullam malesuada, netus ultricies est quam interdum posuere aliquam pulvinar, nec rutrum nibh consequat etiam lacinia mattis lobortis."
     },
     {
         id:5,
         continente: "AMERICA",
         ciudad: "Ontario - Canada",
-        imagen: "../images/america5canada.jpg",
-        miniatura: "../images/AMERICA.png",
+        imagen: "./images/america5canada.jpg",
+        miniatura: "./images/AMERICA.png",
         texto: "Lorem ipsum dolor sit amet consectetur adipiscing elit nullam malesuada, netus ultricies est quam interdum posuere aliquam pulvinar, nec rutrum nibh consequat etiam lacinia mattis lobortis."
     },
     {
         id:5,
         continente: "AMERICA",
         ciudad: "Cancun - Mexico",
-        imagen: "../images/america1peru.jpg",
-        miniatura: "../images/AMERICA.png",
+        imagen: "./images/america1peru.jpg",
+        miniatura: "./images/AMERICA.png",
         texto: "Lorem ipsum dolor sit amet consectetur adipiscing elit nullam malesuada, netus ultricies est quam interdum posuere aliquam pulvinar, nec rutrum nibh consequat etiam lacinia mattis lobortis."
     }
 ]
