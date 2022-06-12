@@ -64,10 +64,7 @@
     width: 50%;
     height: 100%;
 }
-#ciudad, #continente{
-    color: rgb(161, 161, 161);
-    border: 1px solid rgb(161, 161, 161);
-}
+
 .seccion2 form{
     width: 90%;
     margin: 45px 0;
@@ -76,7 +73,15 @@
     flex-wrap: wrap;
     
 }
-.seccion2 form input{
+#ciudad, #continente{
+    color: rgb(161, 161, 161);
+    width: 100%;
+    margin: 10px 0;
+    padding: 7px;
+    border-radius: 10px;
+    border: 1px solid rgb(161, 161, 161);
+}
+#partida,#llegada,#comentarios{
     width: 100%;
     margin: 10px 0;
     padding: 7px;
@@ -86,23 +91,19 @@
 .seccion2 form label{
     float: left;
 }
-.seccion2 form button {
+.botonSubmit{
     width: 25%;
+    color: #ffffff;
     border: none;
-    background-color: #ffffff;
+    background-color: #3FA2F9;
+    padding: 10px;
+    border-radius: 10px;
     cursor: pointer;
 }
-.seccion2 form button input{
-    color: #ffffff;
-    width: 100%;
-    padding:10px;
-    background-color: #3FA2F9;
-    
-}
-.seccion2 form button input:active {
+.botonSubmit:active {
     border: 2px solid #3FA2F9;
     background-color: #3fa2f9e8;
 }
-.seccion2 form button input:hover{
+.botonSubmit:hover{
     transform : scale(1.05);
 }
