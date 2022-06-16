@@ -54,6 +54,7 @@ function mostrarDestinos(e) {
 
             const template = document.querySelector('#template2').content;
             const tarjeta = document.querySelector('.seccionTarjetas')
+            tarjeta.innerHTML = '';
             // const verMas = document.querySelector('.vermas')
             const fragment = document.createDocumentFragment();
 
@@ -77,6 +78,7 @@ function mostrarDestinos(e) {
 
             const template = document.querySelector('#template2').content;
             const tarjeta = document.querySelector('.seccionTarjetas')
+            tarjeta.innerHTML = '';
             // const verMas = document.querySelector('.vermas')
             const fragment = document.createDocumentFragment();
 
@@ -99,6 +101,7 @@ function mostrarDestinos(e) {
 
             const template = document.querySelector('#template2').content;
             const tarjeta = document.querySelector('.seccionTarjetas')
+            tarjeta.innerHTML = '';
             // const verMas = document.querySelector('.vermas')
             const fragment = document.createDocumentFragment();
 
@@ -121,6 +124,7 @@ function mostrarDestinos(e) {
 
             const template = document.querySelector('#template2').content;
             const tarjeta = document.querySelector('.seccionTarjetas')
+            tarjeta.innerHTML = '';
             // const verMas = document.querySelector('.vermas')
             const fragment = document.createDocumentFragment();
 
@@ -143,6 +147,7 @@ function mostrarDestinos(e) {
 
             const template = document.querySelector('#template2').content;
             const tarjeta = document.querySelector('.seccionTarjetas')
+            tarjeta.innerHTML = '';
             // const verMas = document.querySelector('.vermas')
             const fragment = document.createDocumentFragment();
 
