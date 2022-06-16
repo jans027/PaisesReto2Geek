@@ -40,6 +40,7 @@ const clickBoton = document.querySelectorAll('img');
 
 
 clickBoton.forEach(btn => {
+    tarjeta.innerHTML = '';
     btn.addEventListener('click', mostrarDestinos)
 })
 
