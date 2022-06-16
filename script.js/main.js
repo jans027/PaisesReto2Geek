@@ -37,7 +37,7 @@ botonesPaises.appendChild(fragment);
 
 // ......................................................................
 const clickBoton = document.querySelectorAll('img');
-
+const tarjeta = document.querySelector('.seccionTarjetas')
 
 clickBoton.forEach(btn => {
     tarjeta.innerHTML = '';
