@@ -43,7 +43,9 @@
             </template>
             <!-- ................................................. -->
 
-            <section class="seccionTarjetas seccionTarjetas2">
+            <section class="seccionTarjetas2">
+                <div class="seccionTarjetas"></div>
+            </section>
 
 
                 <template id="template2">
@@ -53,7 +55,7 @@
                         <h4 class="vermas" type="button">Ver mas</h4>
                     </div>
                 </template>
-            </section>
+            
         </section>
         <!-- ................................................................. -->
 
@@ -70,7 +72,7 @@
                     <img class="img-secundaria-form" src="" alt="">
                 </div>
                 <div class="seccion2">
-                    <form id="form" action="" novalidate="novalidate">
+                    <form id="form" action="" novalidate="novalidate"> <!-- evita validacion por defecto del navegador -->
                         <h2>Agenda Tu Cita</h2>
                         <input id="ciudad" type="text" readonly>
                         <input id="continente" type="text" readonly>
